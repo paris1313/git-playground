@@ -8,6 +8,6 @@ def addition(a, b):
 x = addition(2, 3)
 print(x)
 
-with open('C:\\Users\\paraskevas.sarantos\\Desktop\\Personal_Projects\\git-playground\\hello.txt', "w") as f:
+with open('C:\\Users\\paraskevas.sarantos\\Desktop\\Personal_Projects\\git-playground\\hello.txt', "a") as f:
     f.write("\nI can use Github")
     print("File written successfully.")
